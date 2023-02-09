@@ -8,12 +8,13 @@
   margin-top: 10%;
   text-align: center;
 }
-.caption {
+.caption
+{
      position: absolute;
      top: 0;
      text-align: center;
      line-height: 100px;
-     opacity: calc(-100%);
+     opacity: 0;
      height: 400px;
      width: 400px;
 }
@@ -22,7 +23,7 @@ p {
 }
 .container:hover .caption {
     background-color: rgba(9, 9, 9, 0.51);
-    opacity: calc(100%);
+    opacity: 1;
     color: white;
 }
 .image {
@@ -32,7 +33,7 @@ p {
 }
 
 .container:hover .image {
-  transform: scale(1.5) rotate(50deg);
+  transform: scale(150%) rotate(50deg);
 }
 
 
